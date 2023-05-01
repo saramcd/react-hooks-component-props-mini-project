@@ -1,8 +1,8 @@
 import React from "react";
 import Article from "./Article";
 
-function ArticleList({ post }) {
-  const articles = post.map((article) => {
+function ArticleList({ posts }) {
+  const articles = posts.map((article) => {
     return (
       <Article
         title={article.title}
